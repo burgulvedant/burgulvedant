@@ -50,18 +50,6 @@ Built around data analysis and making university costs easier to understand.
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=burgulvedant&show_icons=true&hide_border=true&theme=transparent" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=burgulvedant&layout=compact&hide_border=true&theme=transparent" />
-
-</p>
-
----
-
 ## 🤝 Connect With Me
 
 <p align="left">
@@ -70,8 +58,10 @@ Built around data analysis and making university costs easier to understand.
 <img src="https://skillicons.dev/icons?i=linkedin" width="45"/>
 </a>
 
+&nbsp;&nbsp;
+
 <a href="https://vedantburgul.framer.ai/">
-<img src="https://skillicons.dev/icons?i=web" width="45"/>
+🌐 **Portfolio**
 </a>
 
 </p>
