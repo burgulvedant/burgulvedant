@@ -14,7 +14,6 @@ building practical products, and solving real-world problems through technology.
 - 👨🏻‍💻 I'm currently working on **Nexus**
 - 🎓 I'm currently exploring **Data Science, AI/ML, Python & SQL**
 - 🚀 I'm building projects focused on **real-world problems and useful products**
-- 🔍 I'm currently working on **GradScope**, a data-driven platform for comparing Master's programs
 - 💻 All of my projects are available on **my GitHub repositories** and my **portfolio**
 - 📫 How to reach me: **vedantburgul@gmail.com**
 
