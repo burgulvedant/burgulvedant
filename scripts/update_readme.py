@@ -57,7 +57,7 @@ def render(merged, opened, today):
  
 def main():
   merged = search("MERGED")
-  0opened = search("OPEN")
+  opened = search("OPEN")
   merged.sort(key=lambda i: i["closed_at"], reverse=True)
   opened.sort(key=lambda i: i["created_at"], reverse=True)
   today = datetime.date.today().isoformat()
