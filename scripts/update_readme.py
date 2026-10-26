@@ -13,26 +13,13 @@ START = "<!-- OSS:START -->"
 END = "<!-- OSS:END -->"
  
  
-def search(query):
-  """Returns every issue or PR matching a GitHub search query."""
-  items = []
-  page = 1
-  while True:
-    url = (
-        "https://api.github.com/search/issues?per_page=100&page=%d&q=%s"
-        % (page, urllib.parse.quote(query))
-    )
-    request = urllib.request.Request(url)
-    request.add_header("Accept", "application/vnd.github+json")
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-      request.add_header("Authorization", "Bearer " + token)
-    with urllib.request.urlopen(request) as response:
-      data = json.load(response)
-    items.extend(data["items"])
-    if len(data["items"]) < 100:
-      return items
-    page += 1
+def search(state):
+  query = 'query($login:String!){user(login:$login){pullRequests(first:100,states:%s,orderBy:{field:CREATED_AT,direction:DESC}){nodes{number title url createdAt closedAt repository{nameWithOwner owner{login}}}}}}' % state
+  body = json.dumps({"query": query, "variables": {"login": USER}}).encode()
+  request = urllib.request.Request("https://api.github.com/graphql", data=body)
+  request.add_header("Authorization", "Bearer " + os.environ["GITHUB_TOKEN"])
+  nodes = json.load(urllib.request.urlopen(request))["data"]["user"]["pullRequests"]["nodes"]
+  return [{"number": n["number"], "title": n["title"], "html_url": n["url"], "repository_url": "/repos/" + n["repository"]["nameWithOwner"], "closed_at": n["closedAt"] or "", "created_at": n["createdAt"]} for n in nodes if n["repository"]["owner"]["login"] != USER]
  
  
 def repo_name(item):
@@ -69,9 +56,8 @@ def render(merged, opened, today):
  
  
 def main():
-  base = "author:%s is:pr -user:%s " % (USER, USER)
-  merged = search(base + "is:merged")
-  opened = search(base + "is:open")
+  merged = search("MERGED")
+  0opened = search("OPEN")
   merged.sort(key=lambda i: i["closed_at"], reverse=True)
   opened.sort(key=lambda i: i["created_at"], reverse=True)
   today = datetime.date.today().isoformat()
