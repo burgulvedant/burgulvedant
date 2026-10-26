@@ -39,18 +39,17 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**0 merged and 2 open upstream PRs** as of 2026-10-26. Only PRs to other people's repos are listed. My own repos are not included.
+**1 merged and 1 open upstream PRs** as of 2026-10-26. Only PRs to other people's repos are listed. My own repos are not included.
 
-**Goal: 50 merged PRs.** Progress: 0 / 50 (0 percent).
+**Goal: 50 merged PRs.** Progress: 1 / 50 (2 percent).
 
 ### Merged
 
-None yet.
+- **brekkylab/backlot:** [#1037 google: a native Drive file's size and quotaBytesUsed are never under 1024 bytes](https://github.com/brekkylab/backlot/pull/1037)
 
 ### Open
 
 - **google/sbsim:** [#205 Wrap the local time of day in the baseline schedule policy into 0 to 24 hours](https://github.com/google/sbsim/pull/205)
-- **brekkylab/backlot:** [#1037 google: a native Drive file's size and quotaBytesUsed are never under 1024 bytes](https://github.com/brekkylab/backlot/pull/1037)
 
 <!-- OSS:TRACKED brekkylab/backlot#1037 google/sbsim#205 -->
 <!-- OSS:END -->
