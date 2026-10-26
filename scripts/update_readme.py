@@ -1,23 +1,3 @@
-Claude
-/
-Vedant’s MacBook Air (3), Connected
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Update readme · PY
 """Rewrites the open source section of README.md from live GitHub data."""
  
 import datetime
@@ -108,4 +88,4 @@ def main():
 if __name__ == "__main__":
   main()
  
-Claude finished the response
+Claude finished the respons
