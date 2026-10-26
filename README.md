@@ -1,10 +1,9 @@
 <div align="center">
 # Hi 👋, I'm Vedant Burgul
  
-### 👨‍💻 Computer Science Student @ VIT Pune | Data Science Enthusiast
+### Builder | Data Science and AI | Open Source Contributor
  
-I'm a Computer Science student passionate about Data Science, AI,  
-building practical products, and solving real-world problems through technology.
+I build practical products and contribute to open source across Data Science and AI, solving real world problems through technology.
  
 </div>
 ---
