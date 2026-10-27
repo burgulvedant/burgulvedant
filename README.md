@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**1 merged and 2 open upstream PRs** as of 2026-10-26. Only PRs to other people's repos are listed. My own repos are not included.
+**1 merged and 2 open upstream PRs** as of 2026-10-27. Only PRs to other people's repos are listed. My own repos are not included.
 
 **Goal: 50 merged PRs.** Progress: 1 / 50 (2 percent).
 
@@ -48,10 +48,10 @@ Built around data analysis and making university costs easier to understand.
 
 ### Open
 
-- **Tracer-Cloud/opensre:** [#6894 fix(cli): make guardrails test and audit honour global --json](https://github.com/Tracer-Cloud/opensre/pull/6894)
+- **amd/gaia:** [#5857 docs(gaia): state the Linux glibc 2.34 floor in the npm package docs](https://github.com/amd/gaia/pull/5857)
 - **google/sbsim:** [#205 Wrap the local time of day in the baseline schedule policy into 0 to 24 hours](https://github.com/google/sbsim/pull/205)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 brekkylab/backlot#1037 google/sbsim#205 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 amd/gaia#5857 brekkylab/backlot#1037 google/sbsim#205 -->
 <!-- OSS:END -->
  
 ---
