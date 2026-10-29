@@ -38,22 +38,44 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**3 merged and 2 open upstream PRs** as of 2026-10-29. Only PRs to other people's repos are listed. My own repos are not included.
+**3 / 50 merged** as of 2026-10-29 (Asia/Calcutta), with **3 open**.
+Only PRs to other people's repos are listed. My own repos are not included.  
+Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
+**47 more to reach 50.**
 
-**Goal: 50 merged PRs.** Progress: 3 / 50 (6 percent).
+```text
+3 / 50  █░░░░░░░░░░░░░░░░░░░░  6%
+```
+
+### By organization
+
+| Org | Merged | Open | Repos |
+| --- | ---: | ---: | --- |
+| [AMD](https://github.com/amd/gaia) | 2 | 0 | gaia |
+| [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
+| [Amazon/AWS](https://github.com/awslabs/amazon-dynamodb-tools) | 0 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s |
+| [Google](https://github.com/google/sbsim) | 0 | 1 | sbsim |
+| Apple · Meta · NVIDIA · Microsoft · OpenAI · Anthropic | 0 | 0 | none yet |
 
 ### Merged
 
-- **amd/gaia:** [#5969 docs(email): say the "connection is being saved" 502/503 is retryable](https://github.com/amd/gaia/pull/5969)
-- **amd/gaia:** [#5857 docs(gaia): state the Linux glibc 2.34 floor in the npm package docs](https://github.com/amd/gaia/pull/5857)
-- **brekkylab/backlot:** [#1037 google: a native Drive file's size and quotaBytesUsed are never under 1024 bytes](https://github.com/brekkylab/backlot/pull/1037)
+| Repo | PR | Title |
+| --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#5969](https://github.com/amd/gaia/pull/5969) | docs(email): say the "connection is being saved" 502/503 is retryable |
+| [amd/gaia](https://github.com/amd/gaia) | [#5857](https://github.com/amd/gaia/pull/5857) | docs(gaia): state the Linux glibc 2.34 floor in the npm package docs |
+| [brekkylab/backlot](https://github.com/brekkylab/backlot) | [#1037](https://github.com/brekkylab/backlot/pull/1037) | google: a native Drive file's size and quotaBytesUsed are never under 1024 bytes |
 
 ### Open
 
-- **aws/amazon-network-policy-controller-k8s:** [#276 Require a non empty policyRef.name in the PolicyEndpoint CRDs](https://github.com/aws/amazon-network-policy-controller-k8s/pull/276)
-- **google/sbsim:** [#205 Wrap the local time of day in the baseline schedule policy into 0 to 24 hours](https://github.com/google/sbsim/pull/205)
+| Repo | PR | Title |
+| --- | --- | --- |
+| [awslabs/amazon-dynamodb-tools](https://github.com/awslabs/amazon-dynamodb-tools) | [#364](https://github.com/awslabs/amazon-dynamodb-tools/pull/364) | [bulk] Apply diff's max read rate to each table separately |
+| [aws/amazon-network-policy-controller-k8s](https://github.com/aws/amazon-network-policy-controller-k8s) | [#276](https://github.com/aws/amazon-network-policy-controller-k8s/pull/276) | Require a non empty policyRef.name in the PolicyEndpoint CRDs |
+| [google/sbsim](https://github.com/google/sbsim) | [#205](https://github.com/google/sbsim/pull/205) | Wrap the local time of day in the baseline schedule policy into 0 to 24 hours |
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 amd/gaia#5857 amd/gaia#5969 aws/amazon-network-policy-controller-k8s#276 brekkylab/backlot#1037 google/sbsim#205 -->
+[**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
+
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 amd/gaia#5857 amd/gaia#5969 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 -->
 <!-- OSS:END -->
  
 ---
