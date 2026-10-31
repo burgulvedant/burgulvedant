@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **4 open**.
+**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **7 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **46 more to reach 50.**
@@ -51,12 +51,14 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
-| [AMD](https://github.com/amd/gaia) | 3 | 0 | gaia |
+| [AMD](https://github.com/amd/gaia) | 3 | 1 | gaia |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [Amazon/AWS](https://github.com/awslabs/amazon-dynamodb-tools) | 0 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s |
 | [adobe](https://github.com/adobe/aio-template-submission) | 0 | 1 | aio-template-submission |
 | [Google](https://github.com/google/sbsim) | 0 | 1 | sbsim |
-| Apple · Meta · NVIDIA · Microsoft · OpenAI · Anthropic | 0 | 0 | none yet |
+| [Microsoft](https://github.com/microsoft/retina) | 0 | 1 | retina |
+| [OpenAI](https://github.com/openai/codex-action) | 0 | 1 | codex-action |
+| Apple · Meta · NVIDIA · Anthropic | 0 | 0 | none yet |
 
 ### Merged
 
@@ -71,6 +73,9 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
+| [microsoft/retina](https://github.com/microsoft/retina) | [#2910](https://github.com/microsoft/retina/pull/2910) | fix(operator): drop identity mapping when allocator no longer knows the identity |
+| [openai/codex-action](https://github.com/openai/codex-action) | [#189](https://github.com/openai/codex-action/pull/189) | fix: explain a missing Responses API proxy instead of polling for ENOENT |
 | [adobe/aio-template-submission](https://github.com/adobe/aio-template-submission) | [#1833](https://github.com/adobe/aio-template-submission/pull/1833) | fix: retry transient failures when checking template availability |
 | [awslabs/amazon-dynamodb-tools](https://github.com/awslabs/amazon-dynamodb-tools) | [#364](https://github.com/awslabs/amazon-dynamodb-tools/pull/364) | [bulk] Apply diff's max read rate to each table separately |
 | [aws/amazon-network-policy-controller-k8s](https://github.com/aws/amazon-network-policy-controller-k8s) | [#276](https://github.com/aws/amazon-network-policy-controller-k8s/pull/276) | Require a non empty policyRef.name in the PolicyEndpoint CRDs |
@@ -78,7 +83,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 microsoft/retina#2910 openai/codex-action#189 -->
 <!-- OSS:END -->
  
 ---
