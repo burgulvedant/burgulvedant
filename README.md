@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **7 open**.
+**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **9 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **46 more to reach 50.**
@@ -56,8 +56,10 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | [Amazon/AWS](https://github.com/awslabs/amazon-dynamodb-tools) | 0 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s |
 | [adobe](https://github.com/adobe/aio-template-submission) | 0 | 1 | aio-template-submission |
 | [Google](https://github.com/google/sbsim) | 0 | 1 | sbsim |
+| [intel](https://github.com/intel/enterprise-ai-solutions) | 0 | 1 | enterprise-ai-solutions |
 | [Microsoft](https://github.com/microsoft/retina) | 0 | 1 | retina |
 | [OpenAI](https://github.com/openai/codex-action) | 0 | 1 | codex-action |
+| [uber](https://github.com/uber/submitqueue) | 0 | 1 | submitqueue |
 | Apple · Meta · NVIDIA · Anthropic | 0 | 0 | none yet |
 
 ### Merged
@@ -73,6 +75,8 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [intel/enterprise-ai-solutions](https://github.com/intel/enterprise-ai-solutions) | [#80](https://github.com/intel/enterprise-ai-solutions/pull/80) | fix(installer): treat the venv as ready only after pip has finished |
+| [uber/submitqueue](https://github.com/uber/submitqueue) | [#998](https://github.com/uber/submitqueue/pull/998) | fix(dlq): skip requests owned by another live batch when failing a batch |
 | [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
 | [microsoft/retina](https://github.com/microsoft/retina) | [#2910](https://github.com/microsoft/retina/pull/2910) | fix(operator): drop identity mapping when allocator no longer knows the identity |
 | [openai/codex-action](https://github.com/openai/codex-action) | [#189](https://github.com/openai/codex-action/pull/189) | fix: explain a missing Responses API proxy instead of polling for ENOENT |
@@ -83,7 +87,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 microsoft/retina#2910 openai/codex-action#189 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 uber/submitqueue#998 -->
 <!-- OSS:END -->
  
 ---
