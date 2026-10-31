@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **9 open**.
+**4 / 50 merged** as of 2026-10-31 (Asia/Calcutta), with **11 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **46 more to reach 50.**
@@ -54,6 +54,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | [AMD](https://github.com/amd/gaia) | 3 | 1 | gaia |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [Amazon/AWS](https://github.com/awslabs/amazon-dynamodb-tools) | 0 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s |
+| [swiftlang](https://github.com/swiftlang/swift-docc-render) | 0 | 2 | swift-docc-render |
 | [adobe](https://github.com/adobe/aio-template-submission) | 0 | 1 | aio-template-submission |
 | [Google](https://github.com/google/sbsim) | 0 | 1 | sbsim |
 | [intel](https://github.com/intel/enterprise-ai-solutions) | 0 | 1 | enterprise-ai-solutions |
@@ -75,6 +76,8 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
+| [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1044](https://github.com/swiftlang/swift-docc-render/pull/1044) | Emit the ended event from ReplayableVideoAsset |
 | [intel/enterprise-ai-solutions](https://github.com/intel/enterprise-ai-solutions) | [#80](https://github.com/intel/enterprise-ai-solutions/pull/80) | fix(installer): treat the venv as ready only after pip has finished |
 | [uber/submitqueue](https://github.com/uber/submitqueue) | [#998](https://github.com/uber/submitqueue/pull/998) | fix(dlq): skip requests owned by another live batch when failing a batch |
 | [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
@@ -87,7 +90,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 uber/submitqueue#998 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
 <!-- OSS:END -->
  
 ---
