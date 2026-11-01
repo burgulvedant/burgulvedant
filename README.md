@@ -38,20 +38,20 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**4 / 50 merged** as of 2026-11-01 (Asia/Calcutta), with **11 open**.
+**5 / 50 merged** as of 2026-11-01 (Asia/Calcutta), with **10 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
-**46 more to reach 50.**
+**45 more to reach 50.**
 
 ```text
-4 / 50  ██░░░░░░░░░░░░░░░░░░░  8%
+5 / 50  ██░░░░░░░░░░░░░░░░░░░  10%
 ```
 
 ### By organization
 
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
-| [AMD](https://github.com/amd/gaia) | 3 | 1 | gaia |
+| [AMD](https://github.com/amd/gaia) | 4 | 0 | gaia |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [Amazon/AWS](https://github.com/awslabs/amazon-dynamodb-tools) | 0 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s |
 | [swiftlang](https://github.com/swiftlang/swift-docc-render) | 0 | 2 | swift-docc-render |
@@ -67,6 +67,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
 | [amd/gaia](https://github.com/amd/gaia) | [#6201](https://github.com/amd/gaia/pull/6201) | docs(gaia): say git push, reset and rebase ask once instead of being refused |
 | [amd/gaia](https://github.com/amd/gaia) | [#5969](https://github.com/amd/gaia/pull/5969) | docs(email): say the "connection is being saved" 502/503 is retryable |
 | [amd/gaia](https://github.com/amd/gaia) | [#5857](https://github.com/amd/gaia/pull/5857) | docs(gaia): state the Linux glibc 2.34 floor in the npm package docs |
@@ -80,7 +81,6 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1044](https://github.com/swiftlang/swift-docc-render/pull/1044) | Emit the ended event from ReplayableVideoAsset |
 | [intel/enterprise-ai-solutions](https://github.com/intel/enterprise-ai-solutions) | [#80](https://github.com/intel/enterprise-ai-solutions/pull/80) | fix(installer): treat the venv as ready only after pip has finished |
 | [uber/submitqueue](https://github.com/uber/submitqueue) | [#998](https://github.com/uber/submitqueue/pull/998) | fix(dlq): skip requests owned by another live batch when failing a batch |
-| [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
 | [microsoft/retina](https://github.com/microsoft/retina) | [#2910](https://github.com/microsoft/retina/pull/2910) | fix(operator): drop identity mapping when allocator no longer knows the identity |
 | [openai/codex-action](https://github.com/openai/codex-action) | [#189](https://github.com/openai/codex-action/pull/189) | fix: explain a missing Responses API proxy instead of polling for ENOENT |
 | [adobe/aio-template-submission](https://github.com/adobe/aio-template-submission) | [#1833](https://github.com/adobe/aio-template-submission/pull/1833) | fix: retry transient failures when checking template availability |
