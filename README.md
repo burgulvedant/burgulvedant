@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**5 / 50 merged** as of 2026-11-01 (Asia/Calcutta), with **10 open**.
+**5 / 50 merged** as of 2026-11-02 (Asia/Calcutta), with **11 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **45 more to reach 50.**
@@ -60,6 +60,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | [intel](https://github.com/intel/enterprise-ai-solutions) | 0 | 1 | enterprise-ai-solutions |
 | [Microsoft](https://github.com/microsoft/retina) | 0 | 1 | retina |
 | [OpenAI](https://github.com/openai/codex-action) | 0 | 1 | codex-action |
+| [openshift](https://github.com/openshift/sandboxed-containers-operator) | 0 | 1 | sandboxed-containers-operator |
 | [uber](https://github.com/uber/submitqueue) | 0 | 1 | submitqueue |
 | Apple · Meta · NVIDIA · Anthropic | 0 | 0 | none yet |
 
@@ -77,6 +78,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3572](https://github.com/openshift/sandboxed-containers-operator/pull/3572) | fix: keep existing annotations when ensuring a NetworkPolicy |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1044](https://github.com/swiftlang/swift-docc-render/pull/1044) | Emit the ended event from ReplayableVideoAsset |
 | [intel/enterprise-ai-solutions](https://github.com/intel/enterprise-ai-solutions) | [#80](https://github.com/intel/enterprise-ai-solutions/pull/80) | fix(installer): treat the venv as ready only after pip has finished |
@@ -90,7 +92,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 openshift/sandboxed-containers-operator#3572 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
 <!-- OSS:END -->
  
 ---
