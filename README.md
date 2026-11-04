@@ -38,13 +38,13 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**9 / 50 merged** as of 2026-11-04 (Asia/Calcutta), with **13 open**.
+**10 / 50 merged** as of 2026-11-05 (Asia/Calcutta), with **12 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
-**41 more to reach 50.**
+**40 more to reach 50.**
 
 ```text
-9 / 50  ████░░░░░░░░░░░░░░░░░  18%
+10 / 50  ████░░░░░░░░░░░░░░░░░  20%
 ```
 
 ### By organization
@@ -52,9 +52,9 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
 | [AMD](https://github.com/amd/gaia) | 7 | 0 | gaia |
+| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 1 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, visual-asset-management-system |
 | [openshift](https://github.com/openshift/sandboxed-containers-operator) | 1 | 2 | sandboxed-containers-operator |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
-| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 0 | 3 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, visual-asset-management-system |
 | [swiftlang](https://github.com/swiftlang/swift-docc-render) | 0 | 2 | swift-docc-render |
 | [adobe](https://github.com/adobe/aio-template-submission) | 0 | 1 | aio-template-submission |
 | [Google](https://github.com/google/sbsim) | 0 | 1 | sbsim |
@@ -68,6 +68,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system) | [#1061](https://github.com/awslabs/visual-asset-management-system/pull/1061) | fix(backend): log general_error 4xx responses at WARNING |
 | [amd/gaia](https://github.com/amd/gaia) | [#6606](https://github.com/amd/gaia/pull/6606) | fix(agent): fail --live gate on unusable model replies |
 | [amd/gaia](https://github.com/amd/gaia) | [#6605](https://github.com/amd/gaia/pull/6605) | docs(mcp): run the Windows health example with --no-project |
 | [amd/gaia](https://github.com/amd/gaia) | [#6604](https://github.com/amd/gaia/pull/6604) | docs(eval): show the real --compare output in the eval CI guide |
@@ -82,7 +83,6 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
-| [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system) | [#1061](https://github.com/awslabs/visual-asset-management-system/pull/1061) | fix(backend): log general_error 4xx responses at WARNING |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3642](https://github.com/openshift/sandboxed-containers-operator/pull/3642) | fix: keep the install NetworkPolicies until the uninstall has finished |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3629](https://github.com/openshift/sandboxed-containers-operator/pull/3629) | fix: try every NetworkPolicy delete before returning an error |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
