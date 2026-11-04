@@ -38,20 +38,20 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**7 / 50 merged** as of 2026-11-04 (Asia/Calcutta), with **13 open**.
+**8 / 50 merged** as of 2026-11-04 (Asia/Calcutta), with **14 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
-**43 more to reach 50.**
+**42 more to reach 50.**
 
 ```text
-7 / 50  ███░░░░░░░░░░░░░░░░░░  14%
+8 / 50  ███░░░░░░░░░░░░░░░░░░  16%
 ```
 
 ### By organization
 
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
-| [AMD](https://github.com/amd/gaia) | 5 | 0 | gaia |
+| [AMD](https://github.com/amd/gaia) | 6 | 1 | gaia |
 | [openshift](https://github.com/openshift/sandboxed-containers-operator) | 1 | 2 | sandboxed-containers-operator |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 0 | 3 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, visual-asset-management-system |
@@ -68,6 +68,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#6605](https://github.com/amd/gaia/pull/6605) | docs(mcp): run the Windows health example with --no-project |
 | [amd/gaia](https://github.com/amd/gaia) | [#6604](https://github.com/amd/gaia/pull/6604) | docs(eval): show the real --compare output in the eval CI guide |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3572](https://github.com/openshift/sandboxed-containers-operator/pull/3572) | fix: keep existing annotations when ensuring a NetworkPolicy |
 | [amd/gaia](https://github.com/amd/gaia) | [#6205](https://github.com/amd/gaia/pull/6205) | docs(eval): point the compare examples at a run directory that exists |
@@ -80,6 +81,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#6606](https://github.com/amd/gaia/pull/6606) | fix(agent): fail --live gate on unusable model replies |
 | [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system) | [#1061](https://github.com/awslabs/visual-asset-management-system/pull/1061) | fix(backend): log general_error 4xx responses at WARNING |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3642](https://github.com/openshift/sandboxed-containers-operator/pull/3642) | fix: keep the install NetworkPolicies until the uninstall has finished |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3629](https://github.com/openshift/sandboxed-containers-operator/pull/3629) | fix: try every NetworkPolicy delete before returning an error |
@@ -96,7 +98,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 amd/gaia#6604 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 awslabs/visual-asset-management-system#1061 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 openshift/sandboxed-containers-operator#3572 openshift/sandboxed-containers-operator#3629 openshift/sandboxed-containers-operator#3642 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 amd/gaia#6604 amd/gaia#6605 amd/gaia#6606 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 awslabs/visual-asset-management-system#1061 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 openshift/sandboxed-containers-operator#3572 openshift/sandboxed-containers-operator#3629 openshift/sandboxed-containers-operator#3642 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
 <!-- OSS:END -->
  
 ---
