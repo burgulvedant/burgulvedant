@@ -38,20 +38,20 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**10 / 50 merged** as of 2026-11-07 (Asia/Calcutta), with **13 open**.
+**11 / 50 merged** as of 2026-11-07 (Asia/Calcutta), with **12 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
-**40 more to reach 50.**
+**39 more to reach 50.**
 
 ```text
-10 / 50  ████░░░░░░░░░░░░░░░░░  20%
+11 / 50  █████░░░░░░░░░░░░░░░░  22%
 ```
 
 ### By organization
 
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
-| [AMD](https://github.com/amd/gaia) | 7 | 1 | gaia |
+| [AMD](https://github.com/amd/gaia) | 8 | 0 | gaia |
 | [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 1 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, visual-asset-management-system |
 | [openshift](https://github.com/openshift/sandboxed-containers-operator) | 1 | 2 | sandboxed-containers-operator |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
@@ -68,6 +68,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [amd/gaia](https://github.com/amd/gaia) | [#6900](https://github.com/amd/gaia/pull/6900) | docs(guides): drop bare uv run from code-index and eval commands |
 | [awslabs/visual-asset-management-system](https://github.com/awslabs/visual-asset-management-system) | [#1061](https://github.com/awslabs/visual-asset-management-system/pull/1061) | fix(backend): log general_error 4xx responses at WARNING |
 | [amd/gaia](https://github.com/amd/gaia) | [#6606](https://github.com/amd/gaia/pull/6606) | fix(agent): fail --live gate on unusable model replies |
 | [amd/gaia](https://github.com/amd/gaia) | [#6605](https://github.com/amd/gaia/pull/6605) | docs(mcp): run the Windows health example with --no-project |
@@ -83,7 +84,6 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
-| [amd/gaia](https://github.com/amd/gaia) | [#6900](https://github.com/amd/gaia/pull/6900) | docs(guides): drop bare uv run from code-index and eval commands |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3642](https://github.com/openshift/sandboxed-containers-operator/pull/3642) | fix: keep the install NetworkPolicies until the uninstall has finished |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3629](https://github.com/openshift/sandboxed-containers-operator/pull/3629) | fix: try every NetworkPolicy delete before returning an error |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
