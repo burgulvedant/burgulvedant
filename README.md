@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**12 / 50 merged** as of 2026-11-10 (Asia/Calcutta), with **12 open**.
+**12 / 50 merged** as of 2026-11-11 (Asia/Calcutta), with **12 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **38 more to reach 50.**
