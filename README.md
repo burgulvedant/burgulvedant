@@ -38,7 +38,7 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**13 / 50 merged** as of 2026-11-14 (Asia/Calcutta), with **12 open**.
+**13 / 50 merged** as of 2026-11-15 (Asia/Calcutta), with **12 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
 **37 more to reach 50.**
@@ -52,7 +52,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
 | [AMD](https://github.com/amd/gaia) | 10 | 0 | gaia |
-| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 1 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, visual-asset-management-system |
+| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 1 | 3 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, stickler, visual-asset-management-system |
 | [openshift](https://github.com/openshift/sandboxed-containers-operator) | 1 | 2 | sandboxed-containers-operator |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [swiftlang](https://github.com/swiftlang/swift-docc-render) | 0 | 2 | swift-docc-render |
@@ -61,7 +61,6 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | [intel](https://github.com/intel/enterprise-ai-solutions) | 0 | 1 | enterprise-ai-solutions |
 | [Microsoft](https://github.com/microsoft/retina) | 0 | 1 | retina |
 | [OpenAI](https://github.com/openai/codex-action) | 0 | 1 | codex-action |
-| [uber](https://github.com/uber/submitqueue) | 0 | 1 | submitqueue |
 | Apple · Meta · NVIDIA · Anthropic | 0 | 0 | none yet |
 
 ### Merged
@@ -86,12 +85,12 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [awslabs/stickler](https://github.com/awslabs/stickler) | [#581](https://github.com/awslabs/stickler/pull/581) | docs(566): use a low-entropy example IBAN in the Comparators guide |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3642](https://github.com/openshift/sandboxed-containers-operator/pull/3642) | fix: keep the install NetworkPolicies until the uninstall has finished |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3629](https://github.com/openshift/sandboxed-containers-operator/pull/3629) | fix: try every NetworkPolicy delete before returning an error |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1044](https://github.com/swiftlang/swift-docc-render/pull/1044) | Emit the ended event from ReplayableVideoAsset |
 | [intel/enterprise-ai-solutions](https://github.com/intel/enterprise-ai-solutions) | [#80](https://github.com/intel/enterprise-ai-solutions/pull/80) | fix(installer): treat the venv as ready only after pip has finished |
-| [uber/submitqueue](https://github.com/uber/submitqueue) | [#998](https://github.com/uber/submitqueue/pull/998) | fix(dlq): skip requests owned by another live batch when failing a batch |
 | [microsoft/retina](https://github.com/microsoft/retina) | [#2910](https://github.com/microsoft/retina/pull/2910) | fix(operator): drop identity mapping when allocator no longer knows the identity |
 | [openai/codex-action](https://github.com/openai/codex-action) | [#189](https://github.com/openai/codex-action/pull/189) | fix: explain a missing Responses API proxy instead of polling for ENOENT |
 | [adobe/aio-template-submission](https://github.com/adobe/aio-template-submission) | [#1833](https://github.com/adobe/aio-template-submission/pull/1833) | fix: retry transient failures when checking template availability |
@@ -101,7 +100,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 [**See all merged PRs →**](https://github.com/search?q=is%3Apr+author%3Aburgulvedant+is%3Amerged+-user%3Aburgulvedant&type=pullrequests)
 
-<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 amd/gaia#6604 amd/gaia#6605 amd/gaia#6606 amd/gaia#6900 amd/gaia#6931 amd/gaia#8209 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 awslabs/visual-asset-management-system#1061 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 openshift/sandboxed-containers-operator#3572 openshift/sandboxed-containers-operator#3629 openshift/sandboxed-containers-operator#3642 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
+<!-- OSS:TRACKED Tracer-Cloud/opensre#6894 adobe/aio-template-submission#1833 amd/gaia#5857 amd/gaia#5969 amd/gaia#6201 amd/gaia#6205 amd/gaia#6604 amd/gaia#6605 amd/gaia#6606 amd/gaia#6900 amd/gaia#6931 amd/gaia#8209 aws/amazon-network-policy-controller-k8s#276 awslabs/amazon-dynamodb-tools#364 awslabs/stickler#581 awslabs/visual-asset-management-system#1061 brekkylab/backlot#1037 google/sbsim#205 intel/enterprise-ai-solutions#80 microsoft/retina#2910 openai/codex-action#189 openshift/sandboxed-containers-operator#3572 openshift/sandboxed-containers-operator#3629 openshift/sandboxed-containers-operator#3642 swiftlang/swift-docc-render#1044 swiftlang/swift-docc-render#1045 uber/submitqueue#998 -->
 <!-- OSS:END -->
  
 ---
