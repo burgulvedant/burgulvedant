@@ -38,13 +38,13 @@ Built around data analysis and making university costs easier to understand.
 ## 🧩 Open Source Contributions
  
 <!-- OSS:START -->
-**13 / 50 merged** as of 2026-11-18 (Asia/Calcutta), with **12 open**.
+**14 / 50 merged** as of 2026-11-19 (Asia/Calcutta), with **11 open**.
 Only PRs to other people's repos are listed. My own repos are not included.  
 Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/AWS.  
-**37 more to reach 50.**
+**36 more to reach 50.**
 
 ```text
-13 / 50  █████░░░░░░░░░░░░░░░░  26%
+14 / 50  ██████░░░░░░░░░░░░░░░  28%
 ```
 
 ### By organization
@@ -52,7 +52,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 | Org | Merged | Open | Repos |
 | --- | ---: | ---: | --- |
 | [AMD](https://github.com/amd/gaia) | 10 | 0 | gaia |
-| [Amazon/AWS](https://github.com/awslabs/visual-asset-management-system) | 1 | 3 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, stickler, visual-asset-management-system |
+| [Amazon/AWS](https://github.com/awslabs/stickler) | 2 | 2 | amazon-dynamodb-tools, amazon-network-policy-controller-k8s, stickler, visual-asset-management-system |
 | [openshift](https://github.com/openshift/sandboxed-containers-operator) | 1 | 2 | sandboxed-containers-operator |
 | [brekkylab](https://github.com/brekkylab/backlot) | 1 | 0 | backlot |
 | [swiftlang](https://github.com/swiftlang/swift-docc-render) | 0 | 2 | swift-docc-render |
@@ -67,6 +67,7 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
+| [awslabs/stickler](https://github.com/awslabs/stickler) | [#581](https://github.com/awslabs/stickler/pull/581) | docs(566): use a low-entropy example IBAN in the Comparators guide |
 | [amd/gaia](https://github.com/amd/gaia) | [#8209](https://github.com/amd/gaia/pull/8209) | fix(ui): say a cloud model needs reconnecting, not downloading |
 | [amd/gaia](https://github.com/amd/gaia) | [#6931](https://github.com/amd/gaia/pull/6931) | docs(guides): add the required _register_tools stub to composing-skills |
 | [amd/gaia](https://github.com/amd/gaia) | [#6900](https://github.com/amd/gaia/pull/6900) | docs(guides): drop bare uv run from code-index and eval commands |
@@ -85,7 +86,6 @@ Aiming at Apple, Google, Meta, NVIDIA, Microsoft, OpenAI, Anthropic and Amazon/A
 
 | Repo | PR | Title |
 | --- | --- | --- |
-| [awslabs/stickler](https://github.com/awslabs/stickler) | [#581](https://github.com/awslabs/stickler/pull/581) | docs(566): use a low-entropy example IBAN in the Comparators guide |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3642](https://github.com/openshift/sandboxed-containers-operator/pull/3642) | fix: keep the install NetworkPolicies until the uninstall has finished |
 | [openshift/sandboxed-containers-operator](https://github.com/openshift/sandboxed-containers-operator) | [#3629](https://github.com/openshift/sandboxed-containers-operator/pull/3629) | fix: try every NetworkPolicy delete before returning an error |
 | [swiftlang/swift-docc-render](https://github.com/swiftlang/swift-docc-render) | [#1045](https://github.com/swiftlang/swift-docc-render/pull/1045) | Refresh Pager observation when the number of pages changes |
